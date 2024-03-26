@@ -1,0 +1,110 @@
+body {
+    font-size: 1.1rem;
+    padding: 2rem;
+    background-color: rgb(241, 241, 234);
+    margin: 0.5rem;
+}
+
+h1 {
+    text-align: center;
+    font-size: 3.5rem;
+}
+
+h2 {
+    font-size: 2rem;
+    border-bottom: 1px solid rgb(201, 201, 201);
+    padding: 1rem 0;
+}
+
+h3 {
+    font-size: 1.2rem;
+    padding: 0.9rem;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    row-gap: 1rem;
+    margin: 0.5rem;
+}
+
+label {
+    padding-top: 2rem;
+    text-transform: uppercase;
+    font-size: 0.9rem;
+    font-weight: bold;
+}
+
+.search-fonction {
+    display: flex;
+    column-gap: 1rem;
+    width: 100%;
+    align-items: stretch;
+    padding: 0.8rem 0;
+}
+
+input {
+    font-size: 1.2rem;
+    padding: 0 0.8rem;
+    width: 100%;
+}
+
+button {
+    font-size: 1.2rem;
+}
+
+.results {
+    display: flex;
+    row-gap: 1rem;
+}
+
+.results-header {
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: stretch;
+    border-radius: 0.5rem;
+    background-color: rgb(56, 56, 56);
+    margin: 0.5rem;
+}
+
+.setResults {
+    background-color: black;
+    color: white;
+    border: none;
+    border-radius: 0 0.5rem 0.5rem 0;
+
+}
+
+.result {
+    padding: 1rem;
+    margin: 0.5rem;
+    display: flex;
+    background-color: white;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+    column-gap: 0.5rem;
+    row-gap: 0.5rem;
+    border-radius: 0.5rem;
+    justify-content: space-between;
+}
+
+p {
+    width: 30%;
+    text-align: center;
+}
+
+p:first-child {
+    text-align: left;
+}
+
+p:last-child {
+    text-align: right;
+}
+
+strong {
+    font-weight: 600;
+}
+
+span {
+    color: rgb(83, 83, 83);
+}
