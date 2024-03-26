@@ -3,13 +3,17 @@ import Results from "../Results";
 import { useEffect, useState } from "react";
 
 const App = () => {
-    // const [search, setSearch] = useState("")
+
     const [results, setResults] = useState([])
 
     const getCities = async (search) => {
-        const response = await fetch (`https://geo.api.gouv.fr/communes?nom=${search}&fields=code,nom,population,departement`)
-        const data = await response.json()
-        setResults(data)
+        try {
+            const response = await fetch (`https://geo.api.gouv.fr/communes?nom=${search}&fields=code,nom,population,departement`)
+            const data = await response.json()
+            setResults(data)
+        } catch(error) {
+            console.log(error)
+        }
     }
 
     useEffect(() => {

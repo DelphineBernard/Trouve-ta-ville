@@ -1,8 +1,13 @@
+@import url('https://fonts.googleapis.com/css2?family=Arbutus+Slab&display=swap');
+
 body {
     font-size: 1.1rem;
     padding: 2rem;
     background-color: rgb(241, 241, 234);
     margin: 0.5rem;
+    font-family: "Arbutus Slab", serif;
+    font-weight: 400;
+    font-style: normal;
 }
 
 h1 {
@@ -31,7 +36,7 @@ form {
 label {
     padding-top: 2rem;
     text-transform: uppercase;
-    font-size: 0.9rem;
+    font-size: 1rem;
     font-weight: bold;
 }
 
@@ -47,10 +52,15 @@ input {
     font-size: 1.2rem;
     padding: 0 0.8rem;
     width: 100%;
+    background-color: white;
+    border: 1px solid rgb(201, 201, 201);
 }
 
 button {
     font-size: 1.2rem;
+    padding: 0 0.8rem;
+    background-color: rgb(238, 238, 238);
+    border: 1px solid rgb(201, 201, 201);
 }
 
 .results {
