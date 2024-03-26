@@ -5,12 +5,6 @@ const formatData = (population) => {
         return (`${(Math.round(population) / 1000).toFixed(2)} K`).replace(".", ",")
     }
     return population
-    // if (formatted){
-    //     return !formatted
-    // }
-    // else {
-    //     return formatted
-    // }
 }
 
 export default formatData;

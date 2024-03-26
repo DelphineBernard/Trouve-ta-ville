@@ -18,7 +18,7 @@ h1 {
 h2 {
     font-size: 2rem;
     border-bottom: 1px solid rgb(201, 201, 201);
-    padding: 1rem 0;
+    padding: 2rem 0;
 }
 
 h3 {
@@ -63,6 +63,12 @@ button {
     border: 1px solid rgb(201, 201, 201);
 }
 
+.message {
+    font-size: 1.2rem;
+    text-align: center;
+    padding: 2rem;
+}
+
 .results {
     display: flex;
     row-gap: 1rem;
@@ -92,22 +98,24 @@ button {
     display: flex;
     background-color: white;
     box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
-    column-gap: 0.5rem;
-    row-gap: 0.5rem;
     border-radius: 0.5rem;
     justify-content: space-between;
 }
 
-p {
+.result:nth-child(even) {
+    background-color: rgb(241, 241, 241);
+}
+
+.result p {
     width: 30%;
     text-align: center;
 }
 
-p:first-child {
+.result p:first-child {
     text-align: left;
 }
 
-p:last-child {
+.result p:last-child {
     text-align: right;
 }
 
